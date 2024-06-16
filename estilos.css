@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    margin:20px auto;
+    width: 250px;
+    height: 250px;
+}
+#pestanas{
+    display: flex;
+    width: 100%;
+}
+.pestanas{
+    width: 25%;
+    height: 25px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 0px 15px 0px 0px;
+    background-color: bisque;
+}
+.pestanas > p{
+    margin:5px;
+}
+#contenido{
+    font-size: 10px;
+    background-color: bisque;
+}
+#contenido > article{
+    width: 95%;
+    margin:0px auto;
+}
+#contenido > article > fieldset > table{
+    margin:5px auto;
+}
+#contenido > article > fieldset > table{
+    margin:5px auto;
+}
+#guardar{
+    width: 80%;
+}
+#empleado1{
+    filter:brightness(100%);
+}
+#empleado2{
+    filter:brightness(70%);
+}
+#reporte{
+    filter:brightness(70%);
+}

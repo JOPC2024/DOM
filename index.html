@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="dom.js"></script>
+    <title>DOM</title>
+</head>
+<body>
+    <main>
+        <section id="pestanas">
+            <article id="empleado1" class="pestanas" onclick="pestanas('empleado1')"><p>Juana</p></article>
+            <article id="empleado2" class="pestanas" onclick="pestanas('empleado2')"><p>Pedro</p></article>
+            <article id="reporte" class="pestanas" onclick="pestanas('reporte')"><p>Reporte</p></article>
+        </section>
+        <section id="contenido">
+            <article>
+                <fieldset>
+                    <legend>ProductosVendidos</legend>
+                        <table>
+                            <tr>
+                                <td><label>Aqua</label></td><td><input type="number" id="aqua" min="1" max="100"></td>
+                            </tr>
+                            <tr>
+                                <td><label>Emoción</label></td><td><input type="number" id="emocion" min="1" max="100"></td>
+                            </tr>
+                            <tr>
+                                <td><label>Alegría</label></td><td><input type="number" id="alegria" min="1" max="100"></td>
+                            </tr>
+                            <tr>
+                                <td><label>Frescura</label></td><td><input type="number" id="frescura" min="1" max="100"></td>
+                            </tr>
+                            <tr>
+                                <td></td><td></td><td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <button id="guardar" onclick="guardar('empleado1')">Guardar</button>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                </fieldset>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
